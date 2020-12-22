@@ -3,16 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFA3320D2590DA3D00FAC42A /* ExpandedBankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3320C2590DA3D00FAC42A /* ExpandedBankCard.swift */; };
+		CFA332122590EBF200FAC42A /* AggregateBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA332112590EBF200FAC42A /* AggregateBank.swift */; };
+		CFA332172590F1AD00FAC42A /* PagerIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA332162590F1AD00FAC42A /* PagerIndicator.swift */; };
 		CFBD4CC5258D9BB1006331FC /* iOS_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4CC4258D9BB1006331FC /* iOS_TestsApp.swift */; };
-		CFBD4CC7258D9BB1006331FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4CC6258D9BB1006331FC /* ContentView.swift */; };
+		CFBD4CC7258D9BB1006331FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4CC6258D9BB1006331FC /* MainView.swift */; };
 		CFBD4CC9258D9BB2006331FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD4CC8258D9BB2006331FC /* Assets.xcassets */; };
 		CFBD4CCC258D9BB2006331FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD4CCB258D9BB2006331FC /* Preview Assets.xcassets */; };
 		CFBD4CD7258D9BB2006331FC /* iOS_TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4CD6258D9BB2006331FC /* iOS_TestsTests.swift */; };
 		CFBD4CE2258D9BB2006331FC /* iOS_TestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4CE1258D9BB2006331FC /* iOS_TestsUITests.swift */; };
+		CFBD4D04258EE44C006331FC /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = CFBD4D03258EE44C006331FC /* SwiftUIPager */; };
+		CFBD4D09258EFC32006331FC /* BankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D08258EFC32006331FC /* BankCard.swift */; };
+		CFBD4D0A258EFC32006331FC /* BankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D08258EFC32006331FC /* BankCard.swift */; };
+		CFBD4D0F258F072B006331FC /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D0E258F072B006331FC /* Bank.swift */; };
+		CFBD4D10258F072B006331FC /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D0E258F072B006331FC /* Bank.swift */; };
+		CFBD4D15258F0733006331FC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D14258F0733006331FC /* Account.swift */; };
+		CFBD4D16258F0733006331FC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D14258F0733006331FC /* Account.swift */; };
+		CFBD4D25258F8D91006331FC /* BalanceBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D24258F8D91006331FC /* BalanceBar.swift */; };
+		CFBD4D26258F8D91006331FC /* BalanceBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D24258F8D91006331FC /* BalanceBar.swift */; };
+		CFBD4D2B258F9FBE006331FC /* BalanceBarGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D2A258F9FBE006331FC /* BalanceBarGroup.swift */; };
+		CFBD4D2C258F9FBE006331FC /* BalanceBarGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4D2A258F9FBE006331FC /* BalanceBarGroup.swift */; };
+		CFBD4D31258F9FDF006331FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4CC6258D9BB1006331FC /* MainView.swift */; };
+		CFE1899F258FB77100FBD12D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1899E258FB77100FBD12D /* ColorExtension.swift */; };
+		CFE189A725904B5100FBD12D /* BankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE189A625904B5100FBD12D /* BankService.swift */; };
+		CFE189AC2590998100FBD12D /* BankCardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE189AB2590998100FBD12D /* BankCardRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFA3320C2590DA3D00FAC42A /* ExpandedBankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedBankCard.swift; sourceTree = "<group>"; };
+		CFA332112590EBF200FAC42A /* AggregateBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateBank.swift; sourceTree = "<group>"; };
+		CFA332162590F1AD00FAC42A /* PagerIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerIndicator.swift; sourceTree = "<group>"; };
 		CFBD4CC1258D9BB1006331FC /* iOS Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBD4CC4258D9BB1006331FC /* iOS_TestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TestsApp.swift; sourceTree = "<group>"; };
-		CFBD4CC6258D9BB1006331FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFBD4CC6258D9BB1006331FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CFBD4CC8258D9BB2006331FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFBD4CCB258D9BB2006331FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFBD4CCD258D9BB2006331FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +66,14 @@
 		CFBD4CDD258D9BB2006331FC /* iOS TestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS TestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBD4CE1258D9BB2006331FC /* iOS_TestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TestsUITests.swift; sourceTree = "<group>"; };
 		CFBD4CE3258D9BB2006331FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBD4D08258EFC32006331FC /* BankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCard.swift; sourceTree = "<group>"; };
+		CFBD4D0E258F072B006331FC /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		CFBD4D14258F0733006331FC /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CFBD4D24258F8D91006331FC /* BalanceBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBar.swift; sourceTree = "<group>"; };
+		CFBD4D2A258F9FBE006331FC /* BalanceBarGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBarGroup.swift; sourceTree = "<group>"; };
+		CFE1899E258FB77100FBD12D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		CFE189A625904B5100FBD12D /* BankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankService.swift; sourceTree = "<group>"; };
+		CFE189AB2590998100FBD12D /* BankCardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBD4D04258EE44C006331FC /* SwiftUIPager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CFA3321B2590F78100FAC42A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CFE189A625904B5100FBD12D /* BankService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		CFBD4CB8258D9BB0006331FC = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +133,11 @@
 		CFBD4CC3258D9BB1006331FC /* iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CFA3321B2590F78100FAC42A /* Service */,
+				CFE1899D258FB75B00FBD12D /* util */,
+				CFBD4D30258F9FD4006331FC /* view */,
+				CFBD4D1A258F07FC006331FC /* model */,
 				CFBD4CC4258D9BB1006331FC /* iOS_TestsApp.swift */,
-				CFBD4CC6258D9BB1006331FC /* ContentView.swift */,
 				CFBD4CC8258D9BB2006331FC /* Assets.xcassets */,
 				CFBD4CCD258D9BB2006331FC /* Info.plist */,
 				CFBD4CCA258D9BB2006331FC /* Preview Content */,
@@ -130,6 +171,38 @@
 			path = "iOS TestsUITests";
 			sourceTree = "<group>";
 		};
+		CFBD4D1A258F07FC006331FC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4D14258F0733006331FC /* Account.swift */,
+				CFBD4D0E258F072B006331FC /* Bank.swift */,
+				CFA332112590EBF200FAC42A /* AggregateBank.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CFBD4D30258F9FD4006331FC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4CC6258D9BB1006331FC /* MainView.swift */,
+				CFBD4D08258EFC32006331FC /* BankCard.swift */,
+				CFBD4D24258F8D91006331FC /* BalanceBar.swift */,
+				CFBD4D2A258F9FBE006331FC /* BalanceBarGroup.swift */,
+				CFE189AB2590998100FBD12D /* BankCardRow.swift */,
+				CFA3320C2590DA3D00FAC42A /* ExpandedBankCard.swift */,
+				CFA332162590F1AD00FAC42A /* PagerIndicator.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CFE1899D258FB75B00FBD12D /* util */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1899E258FB77100FBD12D /* ColorExtension.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +219,9 @@
 			dependencies = (
 			);
 			name = "iOS Tests";
+			packageProductDependencies = (
+				CFBD4D03258EE44C006331FC /* SwiftUIPager */,
+			);
 			productName = "iOS Tests";
 			productReference = CFBD4CC1258D9BB1006331FC /* iOS Tests.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +293,9 @@
 				Base,
 			);
 			mainGroup = CFBD4CB8258D9BB0006331FC;
+			packageReferences = (
+				CFBD4D02258EE44C006331FC /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+			);
 			productRefGroup = CFBD4CC2258D9BB1006331FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBD4CC7258D9BB1006331FC /* ContentView.swift in Sources */,
+				CFBD4D25258F8D91006331FC /* BalanceBar.swift in Sources */,
+				CFBD4D2B258F9FBE006331FC /* BalanceBarGroup.swift in Sources */,
+				CFBD4CC7258D9BB1006331FC /* MainView.swift in Sources */,
+				CFA3320D2590DA3D00FAC42A /* ExpandedBankCard.swift in Sources */,
+				CFE1899F258FB77100FBD12D /* ColorExtension.swift in Sources */,
+				CFE189AC2590998100FBD12D /* BankCardRow.swift in Sources */,
+				CFE189A725904B5100FBD12D /* BankService.swift in Sources */,
+				CFA332172590F1AD00FAC42A /* PagerIndicator.swift in Sources */,
+				CFBD4D09258EFC32006331FC /* BankCard.swift in Sources */,
 				CFBD4CC5258D9BB1006331FC /* iOS_TestsApp.swift in Sources */,
+				CFA332122590EBF200FAC42A /* AggregateBank.swift in Sources */,
+				CFBD4D15258F0733006331FC /* Account.swift in Sources */,
+				CFBD4D0F258F072B006331FC /* Bank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBD4D2C258F9FBE006331FC /* BalanceBarGroup.swift in Sources */,
+				CFBD4D26258F8D91006331FC /* BalanceBar.swift in Sources */,
+				CFBD4D31258F9FDF006331FC /* MainView.swift in Sources */,
 				CFBD4CD7258D9BB2006331FC /* iOS_TestsTests.swift in Sources */,
+				CFBD4D0A258EFC32006331FC /* BankCard.swift in Sources */,
+				CFBD4D10258F072B006331FC /* Bank.swift in Sources */,
+				CFBD4D16258F0733006331FC /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +676,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFBD4D02258EE44C006331FC /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFBD4D03258EE44C006331FC /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBD4D02258EE44C006331FC /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFBD4CB9258D9BB0006331FC /* Project object */;
 }
