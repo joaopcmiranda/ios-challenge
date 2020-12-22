@@ -102,12 +102,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFA3321B2590F78100FAC42A /* Service */ = {
+		CFA3321B2590F78100FAC42A /* service */ = {
 			isa = PBXGroup;
 			children = (
 				CFE189A625904B5100FBD12D /* BankService.swift */,
 			);
-			path = Service;
+			path = service;
 			sourceTree = "<group>";
 		};
 		CFBD4CB8258D9BB0006331FC = {
@@ -133,7 +133,7 @@
 		CFBD4CC3258D9BB1006331FC /* iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
-				CFA3321B2590F78100FAC42A /* Service */,
+				CFA3321B2590F78100FAC42A /* service */,
 				CFE1899D258FB75B00FBD12D /* util */,
 				CFBD4D30258F9FD4006331FC /* view */,
 				CFBD4D1A258F07FC006331FC /* model */,
